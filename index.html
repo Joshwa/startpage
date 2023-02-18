@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> ~ </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation-prototype.min.css"
+					integrity="sha512-ubTUHpY2QeT9K+8DGlXAS6ErXMPfJhdtDl7gDhiHn86JUaRS4UXHvZZGYRfqqpcNsqORnp4ARWSSjyAbh+G+ag=="
+					crossorigin="anonymous"
+					referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/icons/icon__safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="import" href="https://i.marko.tech/file.html">
+		<link rel="import" href="https://r.marko.tech/file.html">
+		<link rel="import" href="https://t.marko.tech/file.html">
+		<link rel="import" href="https://a.marko.tech/file.html">
+		<link rel="import" href="https://nyt.marko.tech/file.html">
+		<link rel="import" href="https://l.marko.tech/file.html">
+	</head>
+	<body class="vaal">
+		<div class="notifications hidden"></div>
+		<img class="background-image everywhere hidden" />
+		<div class="background everywhere hidden">
+			<svg id="background-svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+				<defs>
+					<radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="84s" values="0%;3%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(255, 0, 255, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop>
+					</radialGradient>
+					<radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="63.5s" values="0%;3%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(255, 255, 0, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(255, 255, 0, 0)"></stop>
+					</radialGradient>
+					<radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="61.5s" values="0%;3%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop>
+					</radialGradient>
+					<radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="63s" values="0%;5%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(0, 255, 0, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop>
+					</radialGradient>
+					<radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="64.5s" values="0%;5%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(0,0,255, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop>
+					</radialGradient>
+					<radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5">
+						<animate attributeName="fx" dur="65.5s" values="0%;5%;0%" repeatCount="10"></animate>
+						<stop offset="0%" stop-color="rgba(255,0,0, 1)"></stop>
+						<stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop>
+					</radialGradient>
+				</defs>
+				<rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)">
+					<animate attributeName="x" dur="60s" values="25%;0%;25%" repeatCount="indefinite"></animate>
+					<animate attributeName="y" dur="61s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+					<animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="57s"
+						repeatCount="indefinite"></animateTransform>
+				</rect>
+				<rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)"
+					transform="rotate(255.072 50 50)">
+					<animate attributeName="x" dur="63s" values="-25%;0%;-25%" repeatCount="indefinite"></animate>
+					<animate attributeName="y" dur="64s" values="0%;50%;0%" repeatCount="indefinite"></animate>
+					<animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="52s"
+						repeatCount="indefinite"></animateTransform>
+				</rect>
+				<rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)">
+					<animate attributeName="x" dur="65s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+					<animate attributeName="y" dur="52s" values="0%;25%;0%" repeatCount="indefinite"></animate>
+					<animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="59s"
+						repeatCount="indefinite"></animateTransform>
+				</rect>
+			</svg>
+		</div>
+		<div class="grid-container container">
+			<div class="grid-x align-middle container__inner">
+				<div class="cell">
+					<div class="grid-x grid-padding-x">
+						<div class="cell small-12">
+							<div class="grid-x grid-padding-y">
+								<div class="cell medium-6">
+									<form id="searchform" action="https://www.duckduckgo.com/?q" method="get">
+									    <label for="search">
+									    	<img class="search" src="icons/icon__search.svg" alt="" />
+									    </label>
+									    <input id="search" placeholder="Search" type="text" name="q" autofocus autocomplete="off" data-type="google" />
+									</form>
+								</div>
+								<div class="cell medium-6 lastfm__container">
+									<div>
+										<a href="" class="lastfm__url" target="_blank" rel="noopener noreferrer">
+											<div class='lastfm__song-name'>
+												<span class='lastfm__song' title=''></span><br>
+												<span class='lastfm__artist' title=''></span> <em><span class='lastfm__album'  title=''></span></em>
+											</div>
+											<img src="" class='lastfm__image' alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cell small-12 large-4 instapaper-links">
+							<ul class="grid-x">
+								<li class="cell">
+									<span class="container__list container__list--title">Server</span>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://joshreed.xyz">
+										<img src="icons/ghost.png" />
+										<span>joshreed.xyz</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://plex.joshreed.xyz">
+										<img src="icons/plex.png" />
+										<span>plex</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://portainer.joshreed.xyz">
+										<img src="icons/port.png" />
+										<span>portainer</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://novnc.joshreed.xyz">
+										<img src="icons/novnc.png" />
+										<span>novnc</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://nextcloud.joshreed.xyz">
+										<img src="icons/nextcloud.png" />
+										<span>nextcloud</span>
+									</a>
+								</li>
+							<!--	<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="http://localhost:9999/wp-admin">
+										<img src="icons/icon__code.svg" />
+										<span>wp-admin</span>
+									</a>
+								</li> -->
+							</ul>
+						</div>
+						<div class="cell small-12 large-auto">
+							<ul class="grid-x">
+								<li class="cell">
+									<span class="container__list container__list--title">quick</span>
+								</li>
+							<!--	<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.instapaper.com/u" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://instapaper.com&sz=128" />
+										<span>Instapaper</span>
+									</a>
+								</li> -->
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.reddit.com/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://reddit.com&sz=128" />
+										<span>Reddit</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://news.youtube.com&sz=128" />
+										<span>YouTube</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.techmeme.com/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://techmeme.com&sz=128" />
+										<span>TechMeme</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://news.ycombinator.com&sz=128" />
+										<span>Hacker News</span>
+									</a>
+								</li>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="cell small-12 large-auto">
+							<ul class="grid-x">
+								<li class="cell">
+									<span class="container__list container__list--title">Work</span>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://supportal.carrier-1.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/c1.png" />
+										<span>Supportal</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://mapper.carrier-1.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/c1.png" />
+										<span>Mapper</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://wiki.carrier-1.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/c1.png" />
+										<span>Wiki</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://webmail.emailsrvr.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/webmail.png" />
+										<span>c1 mail</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://portal.evocative.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/evo.png" />
+										<span>Evocative Portal</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://netbox2.vpls.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/evo.png" />
+										<span>NetBox</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://office.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/office.png" />
+										<span>Office</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://passport.insperity.com" target="_blank" rel="noopener noreferrer">
+										<img src="icons/insperity.png" />
+										<span>Insperity</span>
+									</a>
+								</li>
+<!--					<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://cloud.digitalocean.com/login" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://digitalocean.com&sz=128" />
+										<span>Digital Ocean</span>
+									</a>
+								</li> 
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.name.com/account" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://www.name.com/&sz=128" />
+										<span>Name.com</span>
+									</a>
+								</li> -->
+							</ul>
+						</div>
+						<div class="cell small-12 large-auto">
+							<ul class="grid-x">
+								<li class="cell">
+									<span class="container__list container__list--title">Linux</span>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://wiki.gentoo.org" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://gentoo.org&sz=128" />
+										<span>Gentoo Wiki</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://wiki.archlinux.org" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://archlinux.org&sz=128" />
+										<span>Arch Wiki</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.gamingonlinux.com" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://www.gamingonlinux.com&sz=128" />
+										<span>Gaming on Linux</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://www.protondb.com" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://www.protondb.com&sz=128" />
+										<span>protondb</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="cell small-12 large-auto">
+							<ul class="grid-x">
+								<li class="cell">
+									<span class="container__list container__list--title">Games</span>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://wahapedia.ru" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://wahapedia.ru&sz=128" />
+										<span>Wahapedia</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://warhammer-community.com" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://warhammer-community.com&sz=128" />
+										<span>wh community</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://forums.fatsharkgames.com/c/darktide/66" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://forums.fatsharkgames.com&sz=128" />
+										<span>DarkTide</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://roguetrader.owlcat.games/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://roguetrader.owlcat.games/&sz=128" />
+										<span>RogueTrader</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://1d4chan.org" target="_blank" rel="noopener noreferrer">
+										<img src="icons/Big_Gay_Purple_d4.png" />
+										<span>1d4chan</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://warhammer40k.fandom.com&sz=128" />
+										<span>40k wiki</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://yellowscribe.xyz" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://yellowscribe.xyz&sz=128" />
+										<span>YellowScribe</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="https://rweyrauch.github.io/PrettyScribe/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://rweyrauch.github.io/PrettyScribe/&sz=128" />
+										<span>PrettyScribe</span>
+									</a>
+								</li>
+								<li class="cell small-6 medium-4 large-12 container__list--item">
+									<a class="container__list" href="http://stratascribe.eu.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
+										<img src="https://www.google.com/s2/favicons?domain=https://wh40khomebrew.fandom.com&sz=128" />
+										<span>StrataScribe</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ip">
+				<div>
+					<img src="icons/icon__signal.svg" alt="" />
+					<span class="ip-replace"></span>
+				</div>
+			</div>
+			<div class="stats">
+				<div class="songs" title="">
+					<img src="icons/icon__lastfm.svg" alt="" />
+					<span class="songs-replace"></span>
+				</div>
+				<div class="counter" title="">
+					<img src="icons/icon__eye.svg" alt="" />
+					<span class="counter-replace"></span>
+				</div>
+				<div class="wallet" title="">
+					<img src="icons/icon__coin.svg" alt="" />
+					<span class="wallet-replace"></span>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+						integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+						crossorigin="anonymous"
+		></script>
+		</script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
